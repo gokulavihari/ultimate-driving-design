@@ -1,12 +1,21 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import MHero from "@/components/MHero";
+import MModelsShowcase from "@/components/MModelsShowcase";
+import MPerformanceSection from "@/components/MPerformanceSection";
+import ImmersiveMediaSection from "@/components/ImmersiveMediaSection";
+import LuxuryInteriorsSection from "@/components/LuxuryInteriorsSection";
+import MTestDriveSection from "@/components/MTestDriveSection";
+import MFooter from "@/components/MFooter";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <MHero />
+      <MModelsShowcase />
+      <MPerformanceSection />
+      <ImmersiveMediaSection />
+      <LuxuryInteriorsSection />
+      <MTestDriveSection />
+      <MFooter />
     </div>
   );
 };
