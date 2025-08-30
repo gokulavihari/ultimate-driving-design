@@ -19,6 +19,7 @@ export default {
 		},
 		fontFamily: {
 			'inter': ['Inter', 'system-ui', 'sans-serif'],
+			'bmw': ['BMW Type', 'Montserrat', 'system-ui', 'sans-serif'],
 		},
 		extend: {
 			colors: {

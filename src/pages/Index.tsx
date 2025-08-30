@@ -1,19 +1,21 @@
-import Hero from "@/components/Hero";
-import ModelsShowcase from "@/components/ModelsShowcase";
-import TechnologySection from "@/components/TechnologySection";
-import VideoSection from "@/components/VideoSection";
-import CTASection from "@/components/CTASection";
-import Footer from "@/components/Footer";
+import MHero from "@/components/MHero";
+import MModelsShowcase from "@/components/MModelsShowcase";
+import MPerformanceSection from "@/components/MPerformanceSection";
+import ImmersiveMediaSection from "@/components/ImmersiveMediaSection";
+import LuxuryInteriorsSection from "@/components/LuxuryInteriorsSection";
+import MTestDriveSection from "@/components/MTestDriveSection";
+import MFooter from "@/components/MFooter";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <Hero />
-      <ModelsShowcase />
-      <TechnologySection />
-      <VideoSection />
-      <CTASection />
-      <Footer />
+      <MHero />
+      <MModelsShowcase />
+      <MPerformanceSection />
+      <ImmersiveMediaSection />
+      <LuxuryInteriorsSection />
+      <MTestDriveSection />
+      <MFooter />
     </div>
   );
 };
